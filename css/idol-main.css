@@ -14,10 +14,13 @@ margin: 0px auto;
 
 
 #navi{
-/*
+
     position:relative;
-    top:11px;
-*/
+/*    top:11px;*/
+/*    left: -10px;*/
+    
+    
+
     vertical-align: baseline;
     text-align: right;
     line-height: 36px;
@@ -25,7 +28,7 @@ margin: 0px auto;
     font-size: 1.6em;
     color:red;
     
-    border-bottom: 1px black dotted;
+/*    border-bottom: 1px black dotted;*/
 }
 
 
@@ -49,6 +52,15 @@ margin: 0px auto;
 
 #navi li:hover{
     color:purple;
+    background-color: pink;
+}
+
+
+#navi li{
+  -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);   
+    border: 1px pink solid;
 }
 
 
@@ -66,4 +78,9 @@ margin: 0px auto;
     left: 520px;
     width: 800px;
     
+}
+
+
+*{
+ background-color: black;   
 }
