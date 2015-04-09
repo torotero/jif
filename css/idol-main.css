@@ -32,6 +32,17 @@ margin: 0px auto;
 }
 
 
+#navi ul li{
+     padding-right: 8px   
+}
+
+
+#navi a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
 #sosmed{
     float: right;
     top:20px;
@@ -71,16 +82,32 @@ margin: 0px auto;
 
 
 
-#content{
+#content,#content_event,#content_news,#content_contact,#content_idol{
     position: absolute;
 /*    top:300px;*/
-    top:50%;
+    top:40%;
     left: 520px;
     width: 800px;
+    font-family: monospace
+}
+
+
+#content_event,#content_news,#content_contact,#content_idol{
+  display: none;   
+}
+
+
+
+
+#content h1{
+ color:pink;
+font-size: 2em;
+margin-bottom: 16px;    
     
 }
 
-
-*{
- background-color: black;   
+#content p{
+ font-size: 1.2em;
+line-height:1.5em;
 }
+
